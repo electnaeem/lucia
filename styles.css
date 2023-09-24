@@ -1,0 +1,77 @@
+﻿body {
+    background: linear-gradient(-45deg, #feec95, #f8be43, #fd9132, #d24115, #7b1b0b, #43170c);
+    background-size: 200% 200%;
+    animation-name: gradient;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /*animation: gradient 15s ease infinite;*/
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    25% {
+        background-position: 100% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    75% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+*/
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 00%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    justify-content: center;
+}
+
+#welcome {
+    color: #ffffff;
+    font-size: 80px;
+    font-family: "Satisfy";
+    text-align: center;
+    margin: 0px;
+    margin-bottom: -10px;
+}
+
+#presented {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: "Catamaran";
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+}
+
+
